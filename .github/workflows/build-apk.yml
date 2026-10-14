@@ -1,0 +1,41 @@
+name: Build MiniCPM-V Android APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout official MiniCPM-V-Apps repo
+        uses: actions/checkout@v4
+        with:
+          repository: OpenBMB/MiniCPM-V-Apps
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install NDK and CMake
+        run: |
+          sdkmanager "ndk;27.0.12077973" "cmake;3.22.1"
+
+      - name: Build Debug APK
+        run: |
+          cd MiniCPM-V-demo-Android
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minicpm-v-app-debug
+          path: MiniCPM-V-demo-Android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
