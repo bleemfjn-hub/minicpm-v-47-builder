@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   build:
@@ -80,7 +81,30 @@ jobs:
           git add -f build_log.txt build_meta.txt minicpm-v-app-debug.apk 2>&1 || true
           git status
           git commit -m "ci: build artifacts and log [skip ci]" 2>&1 || echo "nothing to commit"
-          git push origin HEAD:main 2>&1
+          git push origin HEAD:main 2>&1 | tee push_result.txt
+          echo "=== PUSH EXIT: ${PIPESTATUS[0]} ==="
+
+      - name: Report log via issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "### Build run #${{ github.run_number }}"
+            echo ""
+            echo "build_outcome: ${{ steps.build.outcome }}"
+            echo ""
+            echo "#### push_result.txt"
+            echo '```'
+            cat push_result.txt 2>/dev/null || echo "no push_result.txt"
+            echo '```'
+            echo ""
+            echo "#### build_log.txt (last 200 lines)"
+            echo '```'
+            tail -200 build_log.txt 2>/dev/null || echo "no build_log.txt"
+            echo '```'
+          } > report.md
+          gh issue create --repo bleemfjn-hub/minicpm-v-47-builder --title "Build report run #${{ github.run_number }}" --body-file report.md || echo "issue create failed"
 
       - name: Upload artifact
         if: steps.build.outcome == 'success'
