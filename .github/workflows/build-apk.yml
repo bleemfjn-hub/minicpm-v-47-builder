@@ -29,15 +29,18 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Locate and configure Android SDK (runner preinstalled)
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+          ls "$ANDROID_HOME" || true
+          echo "sdk.dir=$ANDROID_HOME" > src/MiniCPM-V-demo-Android/local.properties
+          cat src/MiniCPM-V-demo-Android/local.properties
 
       - name: Install NDK and CMake
         run: |
-          sdkmanager "ndk;27.0.12077973" "cmake;3.22.1"
-
-      - name: Write local.properties
-        run: echo "sdk.dir=$ANDROID_HOME" > src/MiniCPM-V-demo-Android/local.properties
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null 2>&1 || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;27.0.12077973" "cmake;3.22.1"
 
       - name: Build Debug APK
         run: |
