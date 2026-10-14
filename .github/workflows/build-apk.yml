@@ -35,7 +35,6 @@ jobs:
       - name: Locate and configure Android SDK (runner preinstalled)
         run: |
           echo "ANDROID_HOME=$ANDROID_HOME"
-          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
           ls "$ANDROID_HOME" || true
           echo "sdk.dir=$ANDROID_HOME" > src/MiniCPM-V-demo-Android/local.properties
           cat src/MiniCPM-V-demo-Android/local.properties
@@ -44,6 +43,15 @@ jobs:
         run: |
           yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null 2>&1 || true
           "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;27.0.12077973" "cmake;3.22.1"
+
+      - name: Patch macOS-only F_NOCACHE for Linux/Android
+        run: |
+          F=src/llama.cpp-omni/src/llama-moe-slot.cpp
+          echo "--- before ---"
+          grep -n "F_NOCACHE" "$F" || true
+          sed -i 's/F_NOCACHE/0/g' "$F"
+          echo "--- after ---"
+          grep -n "F_NOCACHE" "$F" || echo "F_NOCACHE removed"
 
       - name: Build Debug APK
         id: build
@@ -76,13 +84,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/bleemfjn-hub/minicpm-v-47-builder.git"
-          ls -la
-          test -f build_log.txt && echo "build_log.txt exists" || echo "NO build_log.txt"
           git add -f build_log.txt build_meta.txt minicpm-v-app-debug.apk 2>&1 || true
-          git status
           git commit -m "ci: build artifacts and log [skip ci]" 2>&1 || echo "nothing to commit"
           git push origin HEAD:main 2>&1 | tee push_result.txt
-          echo "=== PUSH EXIT: ${PIPESTATUS[0]} ==="
 
       - name: Report log via issue
         if: always()
@@ -94,14 +98,9 @@ jobs:
             echo ""
             echo "build_outcome: ${{ steps.build.outcome }}"
             echo ""
-            echo "#### push_result.txt"
+            echo "#### build_log.txt (last 150 lines)"
             echo '```'
-            cat push_result.txt 2>/dev/null || echo "no push_result.txt"
-            echo '```'
-            echo ""
-            echo "#### build_log.txt (last 200 lines)"
-            echo '```'
-            tail -200 build_log.txt 2>/dev/null || echo "no build_log.txt"
+            tail -150 build_log.txt 2>/dev/null || echo "no build_log.txt"
             echo '```'
           } > report.md
           gh issue create --repo bleemfjn-hub/minicpm-v-47-builder --title "Build report run #${{ github.run_number }}" --body-file report.md || echo "issue create failed"
