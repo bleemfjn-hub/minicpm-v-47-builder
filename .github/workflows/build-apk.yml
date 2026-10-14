@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout builder repo (this repo)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Checkout official MiniCPM-V-Apps source
         uses: actions/checkout@v4
@@ -72,9 +74,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f build_log.txt build_meta.txt minicpm-v-app-debug.apk 2>/dev/null || true
-          git commit -m "ci: build artifacts and log [skip ci]" || echo "nothing to commit"
-          git push || echo "push failed"
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/bleemfjn-hub/minicpm-v-47-builder.git"
+          ls -la
+          test -f build_log.txt && echo "build_log.txt exists" || echo "NO build_log.txt"
+          git add -f build_log.txt build_meta.txt minicpm-v-app-debug.apk 2>&1 || true
+          git status
+          git commit -m "ci: build artifacts and log [skip ci]" 2>&1 || echo "nothing to commit"
+          git push origin HEAD:main 2>&1
 
       - name: Upload artifact
         if: steps.build.outcome == 'success'
