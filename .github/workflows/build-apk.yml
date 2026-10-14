@@ -43,36 +43,41 @@ jobs:
           "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;27.0.12077973" "cmake;3.22.1"
 
       - name: Build Debug APK
+        id: build
+        continue-on-error: true
         run: |
           cd src/MiniCPM-V-demo-Android
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+          ./gradlew assembleDebug --no-daemon --stacktrace 2>&1 | tee ../../build_log.txt
+          exit ${PIPESTATUS[0]}
 
       - name: Record build metadata
+        if: always()
         run: |
           {
             echo "=== Build Metadata ==="
             echo "commit: ${{ github.sha }}"
             echo "run: ${{ github.run_number }}"
             echo "date: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            echo ""
-            echo "=== APK SHA-256 ==="
-            sha256sum src/MiniCPM-V-demo-Android/app/build/outputs/apk/debug/app-debug.apk
-          } > build_output.txt
-          cat build_output.txt
+            echo "build_outcome: ${{ steps.build.outcome }}"
+          } > build_meta.txt
+          cat build_meta.txt
 
       - name: Copy APK to repo root
+        if: steps.build.outcome == 'success'
         run: cp src/MiniCPM-V-demo-Android/app/build/outputs/apk/debug/app-debug.apk ./minicpm-v-app-debug.apk
 
-      - name: Commit APK and log
+      - name: Commit artifacts and log
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f minicpm-v-app-debug.apk build_output.txt
-          git commit -m "ci: build artifacts [skip ci]" || echo "nothing to commit"
+          git add -f build_log.txt build_meta.txt minicpm-v-app-debug.apk 2>/dev/null || true
+          git commit -m "ci: build artifacts and log [skip ci]" || echo "nothing to commit"
           git push || echo "push failed"
 
       - name: Upload artifact
+        if: steps.build.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: minicpm-v-app-debug
