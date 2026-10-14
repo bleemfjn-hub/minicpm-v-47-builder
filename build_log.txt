@@ -1,0 +1,1534 @@
+Downloading https://services.gradle.org/distributions/gradle-9.3.1-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+
+Welcome to Gradle 9.3.1!
+
+Here are the highlights of this release:
+ - Test reporting improvements
+ - Error and warning improvements
+ - Build authoring improvements
+
+For more details see https://docs.gradle.org/9.3.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:processDebugNavigationResources
+
+> Task :app:mergeDebugResources
+/home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/res/values/strings.xml:156:4: Multiple substitutions specified in non-positional format of string resource string/tts_ref_recorded. Did you mean to add the formatted="false" attribute?
+/home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/res/values-en/strings.xml:153:4: Multiple substitutions specified in non-positional format of string resource string/tts_ref_recorded. Did you mean to add the formatted="false" attribute?
+
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:javaPreCompileDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugAssets
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:generateDebugRFile
+> Task :app:compressDebugAssets
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :app:compileDebugKotlin
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:256:70 Condition is always 'true'.
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:868:45 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:943:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1014:60 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1032:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1055:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1113:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1154:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1207:14 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1216:45 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1237:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/LlamaEngine.kt:1260:21 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/TtsEngine.kt:41:48 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes
+> Task :app:mergeLibDexDebug
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:mergeDebugJavaResource
+> Task :app:compileDebugNavigationResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:preReleaseBuild UP-TO-DATE
+
+> Task :app:configureCMakeRelease[arm64-v8a]
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:146 (include)
+C/C++:   CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /usr/local/lib/android/sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:146 (include)
+C/C++:   CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-d6e46N/CMakeLists.txt:2 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-d6e46N/CMakeLists.txt:2 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-OfBxzJ/CMakeLists.txt:2 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-OfBxzJ/CMakeLists.txt:2 (project)
+C/C++: CMAKE_BUILD_TYPE=Release
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-4j6yqZ/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-4j6yqZ/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-nkUTt6/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-nkUTt6/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-IXMifU/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-IXMifU/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-7864uh/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-7864uh/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-HikMKs/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-HikMKs/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-pFSdZt/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-pFSdZt/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-k9yQJF/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-k9yQJF/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-kJNP2C/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-kJNP2C/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-JfqrB2/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-JfqrB2/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-2lNwIy/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-2lNwIy/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-Xs2KWD/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-Xs2KWD/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-hDqSKH/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-hDqSKH/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-Hr7Ucj/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-Hr7Ucj/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-xRFqeM/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-xRFqeM/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-od3KZu/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-od3KZu/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-UqXxgT/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-UqXxgT/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-w6e9UU/CMakeLists.txt:3 (project)
+C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+C/C++:   CMake.
+C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+C/C++:   to tell CMake that the project requires at least <min> but has been updated
+C/C++:   to work with policies introduced by <max> or earlier.
+C/C++: Call Stack (most recent call first):
+C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/4.1.2/CMakeSystem.cmake:6 (include)
+C/C++:   /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-w6e9UU/CMakeLists.txt:3 (project)
+
+> Task :app:buildCMakeRelease[arm64-v8a]
+C/C++: ninja: Entering directory `/home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a'
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/ggml/src/ggml-cpu/kleidiai/kleidiai.cpp:1505:28: warning: missing field 'is_host_addressable' initializer [-Wmissing-field-initializers]
+C/C++:  1505 |                            },
+C/C++:       |                            ^
+C/C++: 1 warning generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-context.cpp:2566:49: warning: comparison of integers of different signs: 'const uint32_t' (aka 'const unsigned int') and 'int' [-Wsign-compare]
+C/C++:  2566 |                                 ubatch.n_tokens <= moe_slots->window_max_rows(),
+C/C++:       |                                 ~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-context.cpp:3637:5: warning: missing field 'ctx_other' initializer [-Wmissing-field-initializers]
+C/C++:  3637 |     };
+C/C++:       |     ^
+C/C++: 2 warnings generated.
+
+> Task :app:processDebugManifestForPackage
+
+> Task :app:buildCMakeRelease[arm64-v8a]
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-moe-slot.cpp:619:9: warning: initializer order does not match the declaration order [-Wreorder-ctor]
+C/C++:   616 |         model(model),
+C/C++:       |         ~~~~~~~~~~~~
+C/C++:       |         predicted(model.layers.size())
+C/C++:   617 |         n_expert((int32_t) model.hparams.n_expert),
+C/C++:       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         miss_per_layer(model.layers.size(), 0)
+C/C++:   618 |         n_slots(model.moe_slot_bank_size()),
+C/C++:       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         deferred(model.layers.size())
+C/C++:   619 |         layers(model.layers.size()),
+C/C++:       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         model(model)
+C/C++:   620 |         predicted(model.layers.size()),
+C/C++:       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         n_expert((int32_t) model.hparams.n_expert)
+C/C++:   621 |         deferred(model.layers.size()),
+C/C++:       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         n_slots(model.moe_slot_bank_size())
+C/C++:   622 |         miss_per_layer(model.layers.size(), 0),
+C/C++:       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |         layers(model.layers.size())
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-moe-slot.cpp:619:9: note: field 'layers' will be initialized after field 'predicted'
+C/C++:   619 |         layers(model.layers.size()),
+C/C++:       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-moe-slot.cpp:621:9: note: field 'deferred' will be initialized after field 'miss_per_layer'
+C/C++:   621 |         deferred(model.layers.size()),
+C/C++:       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: 1 warning generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-sampler.cpp:3861:79: warning: cast from 'const llama_sampler *' to 'llama_sampler *' drops const qualifier [-Wcast-qual]
+C/C++:  3861 |         const int n_samplers = llama_sampler_chain_n((struct llama_sampler *) smpl);
+C/C++:       |                                                                               ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/llama-sampler.cpp:3863:96: warning: cast from 'const llama_sampler *' to 'llama_sampler *' drops const qualifier [-Wcast-qual]
+C/C++:  3863 |             const struct llama_sampler * it = llama_sampler_chain_get((struct llama_sampler *) smpl, i);
+C/C++:       |                                                                                                ^
+C/C++: 2 warnings generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/speculative.cpp:2087:9: warning: no previous prototype for function 'common_speculative_n_max' [-Wmissing-prototypes]
+C/C++:  2087 | int32_t common_speculative_n_max(const common_params_speculative * spec) {
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/speculative.cpp:2087:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  2087 | int32_t common_speculative_n_max(const common_params_speculative * spec) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: 1 warning generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/vision.cpp:2565:6: warning: no previous prototype for function 'vision_set_max_slice_nums' [-Wmissing-prototypes]
+C/C++:  2565 | void vision_set_max_slice_nums(struct vision_ctx * ctx, int max_slice_nums) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/vision.cpp:2565:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  2565 | void vision_set_max_slice_nums(struct vision_ctx * ctx, int max_slice_nums) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: 1 warning generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qsi8d32pscalef32_f16_neon.c:104:34: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   104 |             const float scale0 = absmax == 0.0F ? 0.0F : qmax / absmax;
+C/C++:       |                                  ^~~~~~ ~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qsi8d32pscalef32_f16_neon.c:104:65: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   104 |             const float scale0 = absmax == 0.0F ? 0.0F : qmax / absmax;
+C/C++:       |                                                               ~ ^~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qsi8d32pscalef32_f16_neon.c:117:55: warning: implicit conversion increases floating-point precision: 'const float16_t' (aka 'const __fp16') to 'float' [-Wdouble-promotion]
+C/C++:   117 |                     int32_t v0_s32 = (int32_t)(roundf(src0_0 * scale0));
+C/C++:       |                                                       ^~~~~~ ~
+C/C++: 3 warnings generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:153:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   153 |             const float rmin0 = fminf(0.0F, min0);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:154:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   154 |             const float rmax0 = fmaxf(0.0F, max0);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:156:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   156 |             const float rmin1 = fminf(0.0F, min1);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:157:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   157 |             const float rmax1 = fmaxf(0.0F, max1);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:159:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   159 |             const float rmin2 = fminf(0.0F, min2);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:160:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   160 |             const float rmax2 = fmaxf(0.0F, max2);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:162:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   162 |             const float rmin3 = fminf(0.0F, min3);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:163:45: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   163 |             const float rmax3 = fmaxf(0.0F, max3);
+C/C++:       |                                 ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:393:41: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   393 |         const float rmin0 = fminf(0.0F, min0);
+C/C++:       |                             ~~~~~       ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/.cxx/Release/2n1w69yz/arm64-v8a/_deps/kleidiai_download-src/kai/ukernels/matmul/pack/kai_lhs_quant_pack_qai8dxp_f16_neon.c:394:41: warning: implicit conversion increases floating-point precision: 'float16_t' (aka '__fp16') to 'float' [-Wdouble-promotion]
+C/C++:   394 |         const float rmax0 = fmaxf(0.0F, max0);
+C/C++:       |                             ~~~~~       ^~~~
+C/C++: 10 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:42:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/../../vendor/miniaudio/miniaudio.h:12160:5: warning: no previous prototype for function 'ma_android_sdk_version' [-Wmissing-prototypes]
+C/C++:  12160 | int ma_android_sdk_version()
+C/C++:        |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/../../vendor/miniaudio/miniaudio.h:12160:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  12160 | int ma_android_sdk_version()
+C/C++:        | ^
+C/C++:        | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:1439:15: warning: unused variable 'n_pos' [-Wunused-variable]
+C/C++:  1439 |     const int n_pos = num_patches + (model.class_embedding ? 1 : 0);
+C/C++:       |               ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:1440:15: warning: unused variable 'pos_w' [-Wunused-variable]
+C/C++:  1440 |     const int pos_w = image_size_width  / patch_size;
+C/C++:       |               ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:1441:15: warning: unused variable 'pos_h' [-Wunused-variable]
+C/C++:  1441 |     const int pos_h = image_size_height / patch_size;
+C/C++:       |               ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:1443:16: warning: unused variable 'use_window_attn' [-Wunused-variable]
+C/C++:  1443 |     const bool use_window_attn = hparams.n_wa_pattern > 0; // for qwen2.5vl
+C/C++:       |                ^~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/audition.cpp:1463:10: warning: unused variable 'set_input_i32' [-Wunused-variable]
+C/C++:  1463 |     auto set_input_i32 = [&get_inp_tensor](const char * name, std::vector<int32_t> & values) {
+C/C++:       |          ^~~~~~~~~~~~~
+C/C++: 6 warnings generated.
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:143:19: warning: unused variable 'C' [-Wunused-variable]
+C/C++:   143 |     const int64_t C = x_cb->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:144:19: warning: unused variable 'B' [-Wunused-variable]
+C/C++:   144 |     const int64_t B = x_cb->ne[1];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:445:106: warning: unused parameter 'label' [-Wunused-parameter]
+C/C++:   445 | ggml_tensor * fm_attn_mul_mat_checked(ggml_context * ctx, ggml_tensor * a, ggml_tensor * b, const char * label) {
+C/C++:       |                                                                                                          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:719:74: warning: unused parameter 'offset_ct' [-Wunused-parameter]
+C/C++:   719 |                                                           int64_t        offset_ct) {
+C/C++:       |                                                                          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:782:27: warning: unused variable 'B_spk' [-Wunused-variable]
+C/C++:   782 |             const int64_t B_spk = spks->ne[1];
+C/C++:       |                           ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:786:27: warning: unused variable 'one' [-Wunused-variable]
+C/C++:   786 |             const int64_t one   = spks->ne[1];
+C/C++:       |                           ^~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:787:27: warning: unused variable 'B_spk' [-Wunused-variable]
+C/C++:   787 |             const int64_t B_spk = spks->ne[2];
+C/C++:       |                           ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:862:23: warning: unused variable 'n_time_in' [-Wunused-variable]
+C/C++:   862 |         const int64_t n_time_in = att_cache_packed->ne[2] / (int64_t) (H * depth);
+C/C++:       |                       ^~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:866:23: warning: unused variable 'n_time_in' [-Wunused-variable]
+C/C++:   866 |         const int64_t n_time_in = cnn_cache_packed->ne[2] / (int64_t) depth;
+C/C++:       |                       ^~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:885:27: warning: unused variable 'B_spk' [-Wunused-variable]
+C/C++:   885 |             const int64_t B_spk = spks->ne[1];
+C/C++:       |                           ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:889:27: warning: unused variable 'one' [-Wunused-variable]
+C/C++:   889 |             const int64_t one   = spks->ne[1];
+C/C++:       |                           ^~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:890:27: warning: unused variable 'B_spk' [-Wunused-variable]
+C/C++:   890 |             const int64_t B_spk = spks->ne[2];
+C/C++:       |                           ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:1377:19: warning: unused variable 'T' [-Wunused-variable]
+C/C++:  1377 |     const int64_t T = x->ne[1];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:1426:19: warning: unused variable 'T' [-Wunused-variable]
+C/C++:  1426 |     const int64_t T = x->ne[1];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:1884:23: warning: address of array 't->name' will always evaluate to 'true' [-Wpointer-bool-conversion]
+C/C++:  1884 |         if (!t || !t->name) {
+C/C++:       |                   ~~~~^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:2203:51: warning: unused parameter 'gpu_idx' [-Wunused-parameter]
+C/C++:  2203 | ggml_backend_t fm_loader_init_backend_gpu_idx(int gpu_idx, std::string & backend_name_out) {
+C/C++:       |                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:2330:73: warning: unused parameter 'offset_ct' [-Wunused-parameter]
+C/C++:  2330 |                                                    int64_t              offset_ct) {
+C/C++:       |                                                                         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:2725:69: warning: all paths through this function will call itself [-Winfinite-recursion]
+C/C++:  2725 |                                               ggml_tensor *  scale) {
+C/C++:       |                                                                     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3183:51: warning: unused parameter 'gpu_idx' [-Wunused-parameter]
+C/C++:  3183 | ggml_backend_t ue_loader_init_backend_gpu_idx(int gpu_idx, std::string & backend_name_out) {
+C/C++:       |                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3618:105: warning: unused parameter 'label' [-Wunused-parameter]
+C/C++:  3618 | ggml_tensor * ue_mha_mul_mat_checked(ggml_context * ctx, ggml_tensor * a, ggml_tensor * b, const char * label) {
+C/C++:       |                                                                                                         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3718:19: warning: unused variable 'Cq' [-Wunused-variable]
+C/C++:  3718 |     const int64_t Cq = query_ctb->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3719:19: warning: unused variable 'Bk' [-Wunused-variable]
+C/C++:  3719 |     const int64_t Bk = key_ctb->ne[2];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3721:19: warning: unused variable 'Ck' [-Wunused-variable]
+C/C++:  3721 |     const int64_t Ck = key_ctb->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3722:19: warning: unused variable 'Bv' [-Wunused-variable]
+C/C++:  3722 |     const int64_t Bv = value_ctb->ne[2];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3723:19: warning: unused variable 'Tv' [-Wunused-variable]
+C/C++:  3723 |     const int64_t Tv = value_ctb->ne[1];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3724:19: warning: unused variable 'Cv' [-Wunused-variable]
+C/C++:  3724 |     const int64_t Cv = value_ctb->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3794:19: warning: unused variable 'C' [-Wunused-variable]
+C/C++:  3794 |     const int64_t C  = query_ctb->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3801:19: warning: variable 't_cache' set but not used [-Wunused-but-set-variable]
+C/C++:  3801 |     int64_t       t_cache = 0;
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3853:19: warning: unused variable 'C' [-Wunused-variable]
+C/C++:  3853 |     const int64_t C = xs_ctb->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3902:19: warning: unused variable 'Cin' [-Wunused-variable]
+C/C++:  3902 |     const int64_t Cin  = x_ctb->ne[0];
+C/C++:       |                   ^~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3904:19: warning: unused variable 'K' [-Wunused-variable]
+C/C++:  3904 |     const int64_t K    = w_kic_oc->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3905:19: warning: unused variable 'Cinw' [-Wunused-variable]
+C/C++:  3905 |     const int64_t Cinw = w_kic_oc->ne[1];
+C/C++:       |                   ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3953:19: warning: unused variable 'T' [-Wunused-variable]
+C/C++:  3953 |     const int64_t T = inputs_ctb->ne[1];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3955:19: warning: unused variable 'K1' [-Wunused-variable]
+C/C++:  3955 |     const int64_t K1 = conv1_weight_->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3962:19: warning: unused variable 'K2' [-Wunused-variable]
+C/C++:  3962 |     const int64_t K2 = conv2_weight_->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3982:19: warning: unused variable 'dt' [-Wunused-variable]
+C/C++:  3982 |     const int64_t dt = inputs_ctb->ne[1];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3984:19: warning: unused variable 'K1' [-Wunused-variable]
+C/C++:  3984 |     const int64_t K1 = conv1_weight_->ne[0];
+C/C++:       |                   ^~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4089:109: warning: unused parameter 'label' [-Wunused-parameter]
+C/C++:  4089 | ggml_tensor * ue_rel_mha_mul_mat_checked(ggml_context * ctx, ggml_tensor * a, ggml_tensor * b, const char * label) {
+C/C++:       |                                                                                                             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4157:19: warning: variable 't_cache' set but not used [-Wunused-but-set-variable]
+C/C++:  4157 |     int64_t       t_cache = 0;
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4313:19: warning: unused variable 'Cin' [-Wunused-variable]
+C/C++:  4313 |     const int64_t Cin  = x_ctb->ne[0];
+C/C++:       |                   ^~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4315:19: warning: unused variable 'K' [-Wunused-variable]
+C/C++:  4315 |     const int64_t K    = w_kic_oc->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4316:19: warning: unused variable 'Cinw' [-Wunused-variable]
+C/C++:  4316 |     const int64_t Cinw = w_kic_oc->ne[1];
+C/C++:       |                   ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4360:19: warning: unused variable 'K' [-Wunused-variable]
+C/C++:  4360 |     const int64_t K        = conv_weight_->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4381:19: warning: unused variable 'K' [-Wunused-variable]
+C/C++:  4381 |     const int64_t K       = conv_weight_->ne[0];
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4660:19: warning: variable 'Tk1' set but not used [-Wunused-but-set-variable]
+C/C++:  4660 |     int64_t       Tk1                   = 0;
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:4698:19: warning: variable 'Tk2' set but not used [-Wunused-but-set-variable]
+C/C++:  4698 |     int64_t       Tk2                   = 0;
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:5149:23: warning: address of array 't->name' will always evaluate to 'true' [-Wpointer-bool-conversion]
+C/C++:  5149 |         if (!t || !t->name) {
+C/C++:       |                   ~~~~^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:5590:64: warning: unused parameter 'what' [-Wunused-parameter]
+C/C++:  5590 |                                                 const char *   what) {
+C/C++:       |                                                                ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:7139:23: warning: address of array 't->name' will always evaluate to 'true' [-Wpointer-bool-conversion]
+C/C++:  7139 |         if (!t || !t->name) {
+C/C++:       |                   ~~~~^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:7417:42: warning: unused parameter 'offset_ct' [-Wunused-parameter]
+C/C++:  7417 |                     int64_t              offset_ct) {
+C/C++:       |                                          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:9144:18: warning: unused variable 'cnn_per_step_dB' [-Wunused-variable]
+C/C++:  9144 |     const size_t cnn_per_step_dB = (size_t) (depth_i * B_i) * cnn_per_slot;
+C/C++:       |                  ^~~~~~~~~~~~~~~
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.cpp:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:199:11: warning: private field 'qkv_bias_' is not used [-Wunused-private-field]
+C/C++:   199 |     bool  qkv_bias_  = false;
+C/C++:       |           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:201:11: warning: private field 'attn_drop_' is not used [-Wunused-private-field]
+C/C++:   201 |     float attn_drop_ = 0.0f;
+C/C++:       |           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:202:11: warning: private field 'proj_drop_' is not used [-Wunused-private-field]
+C/C++:   202 |     float proj_drop_ = 0.0f;
+C/C++:       |           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:481:11: warning: private field 'mlp_ratio_' is not used [-Wunused-private-field]
+C/C++:   481 |     float mlp_ratio_;
+C/C++:       |           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:511:9: warning: private field 'hidden_size_' is not used [-Wunused-private-field]
+C/C++:   511 |     int hidden_size_;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:512:9: warning: private field 'out_channels_' is not used [-Wunused-private-field]
+C/C++:   512 |     int out_channels_;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:606:9: warning: private field 'in_features_' is not used [-Wunused-private-field]
+C/C++:   606 |     int in_features_;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:607:9: warning: private field 'hidden_features_' is not used [-Wunused-private-field]
+C/C++:   607 |     int hidden_features_;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:608:9: warning: private field 'out_features_' is not used [-Wunused-private-field]
+C/C++:   608 |     int out_features_;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:609:18: warning: private field 'act_layer_' is not used [-Wunused-private-field]
+C/C++:   609 |     const char * act_layer_;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:610:18: warning: private field 'norm_layer_' is not used [-Wunused-private-field]
+C/C++:   610 |     const char * norm_layer_;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:611:18: warning: private field 'bias_' is not used [-Wunused-private-field]
+C/C++:   611 |     bool         bias_;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:612:18: warning: private field 'drop_' is not used [-Wunused-private-field]
+C/C++:   612 |     float        drop_;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:798:9: warning: private field 'hidden_size_' is not used [-Wunused-private-field]
+C/C++:   798 |     int hidden_size_;
+C/C++:       |         ^
+C/C++: 65 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:5:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/token2wav/token2wav-impl.h:2257:1: warning: 'Token2WavSession' defined as a struct here but previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+C/C++:  2257 | struct Token2WavSession {
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.h:29:1: note: did you mean struct here?
+C/C++:    29 | class Token2WavSession;
+C/C++:       | ^~~~~
+C/C++:       | struct
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/../../common/common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/../../common/common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:344:19: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:   344 |     int n_embd  = llama_n_embd(llama_get_model(ctx_llama));
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:372:19: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:   372 |     int n_embd  = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:406:18: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:   406 |     int n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:861:6: warning: no previous prototype for function 'omni_image_embed_make_chunks_with_filename' [-Wmissing-prototypes]
+C/C++:   861 | bool omni_image_embed_make_chunks_with_filename(struct vision_ctx * ctx_vision, int n_threads, 
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:861:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:   861 | bool omni_image_embed_make_chunks_with_filename(struct vision_ctx * ctx_vision, int n_threads, 
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:890:6: warning: no previous prototype for function 'audition_read_binary_file' [-Wmissing-prototypes]
+C/C++:   890 | bool audition_read_binary_file(const char * fname, std::vector<uint8_t> * buf_res) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:890:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:   890 | bool audition_read_binary_file(const char * fname, std::vector<uint8_t> * buf_res) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:911:21: warning: no previous prototype for function 'omni_audio_embed_make_with_bytes' [-Wmissing-prototypes]
+C/C++:   911 | struct omni_embed * omni_audio_embed_make_with_bytes(audition_ctx * ctx_audio, int n_threads, audition_audio_u8 * audio) {
+C/C++:       |                     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:911:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:   911 | struct omni_embed * omni_audio_embed_make_with_bytes(audition_ctx * ctx_audio, int n_threads, audition_audio_u8 * audio) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1212:24: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  1212 |     const int n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1683:28: warning: unused variable 'emb_code_type' [-Wunused-variable]
+C/C++:  1683 |             enum ggml_type emb_code_type = emb_code_tensor->type;
+C/C++:       |                            ^~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1684:21: warning: unused variable 'emb_code_elements' [-Wunused-variable]
+C/C++:  1684 |             int64_t emb_code_elements = dim0 * dim1;
+C/C++:       |                     ^~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1765:28: warning: unused variable 'emb_text_type' [-Wunused-variable]
+C/C++:  1765 |             enum ggml_type emb_text_type = emb_text_tensor->type;
+C/C++:       |                            ^~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1766:21: warning: unused variable 'emb_text_elements' [-Wunused-variable]
+C/C++:  1766 |             int64_t emb_text_elements = vocab_size * hidden_size;
+C/C++:       |                     ^~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1991:27: warning: unused variable 'src_data' [-Wunused-variable]
+C/C++:  1991 |             const float * src_data = (const float *)head_code_tensor->data;
+C/C++:       |                           ^~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:1992:18: warning: variable 'need_transpose' set but not used [-Wunused-but-set-variable]
+C/C++:  1992 |             bool need_transpose = false;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2041:21: warning: unused variable 'total_elements' [-Wunused-variable]
+C/C++:  2041 |             int64_t total_elements = expected_hidden_size * expected_num_audio_tokens;
+C/C++:       |                     ^~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2310:75: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:  2310 | static bool eval_tokens_tts(struct omni_context* ctx_omni, common_params* params, std::vector<llama_token> tokens, int n_batch, int * n_past_tts) {
+C/C++:       |                                                                           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2390:18: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  2390 |     int n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_tts_llama));
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2375:73: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:  2375 | bool prefill_with_emb_tts(struct omni_context* ctx_omni, common_params* params, float* embed, int n_pos, int n_batch, int* n_past_tts) {
+C/C++:       |                                                                         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2784:17: warning: unused variable 'logits_debug_dir' [-Wunused-variable]
+C/C++:  2784 |     const char* logits_debug_dir = getenv("TTS_LOGITS_DEBUG_DIR");
+C/C++:       |                 ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:3083:27: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  3083 |         int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_tts_llama));
+C/C++:       |                           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:3117:9: warning: unused variable 'eos_relative_idx' [-Wunused-variable]
+C/C++:  3117 |     int eos_relative_idx = num_audio_tokens - 1;  // EOS token relative index: 6561
+C/C++:       |         ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:3195:11: warning: unused variable 'tau_r' [-Wunused-variable]
+C/C++:  3195 |     float tau_r = 0.1f;             // TTSSamplingParams.tau_r = 0.1
+C/C++:       |           ^~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2985:13: warning: no previous prototype for function 'sample_tts_token' [-Wmissing-prototypes]
+C/C++:  2985 | llama_token sample_tts_token(struct common_sampler * smpl, struct omni_context * ctx_omni, common_params* params, int * n_past_tts, const std::vector<llama_token> * all_generated_tokens, const std::vector<llama_token> * chunk_generated_tokens, int token_index_in_chunk, bool force_no_eos, bool is_final_text_chunk = false) {
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:2985:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  2985 | llama_token sample_tts_token(struct common_sampler * smpl, struct omni_context * ctx_omni, common_params* params, int * n_past_tts, const std::vector<llama_token> * all_generated_tokens, const std::vector<llama_token> * chunk_generated_tokens, int token_index_in_chunk, bool force_no_eos, bool is_final_text_chunk = false) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:3985:27: warning: 'llama_load_model_from_file' is deprecated: use llama_model_load_from_file instead [-Wdeprecated-declarations]
+C/C++:  3985 |     llama_model * model = llama_load_model_from_file(model_path.c_str(), model_params);
+C/C++:       |                           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:486:5: note: 'llama_load_model_from_file' has been explicitly marked deprecated here
+C/C++:   486 |     DEPRECATED(LLAMA_API struct llama_model * llama_load_model_from_file(
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4007:27: warning: 'llama_load_model_from_file' is deprecated: use llama_model_load_from_file instead [-Wdeprecated-declarations]
+C/C++:  4007 |     llama_model * model = llama_load_model_from_file(model_path.c_str(), model_params);
+C/C++:       |                           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:486:5: note: 'llama_load_model_from_file' has been explicitly marked deprecated here
+C/C++:   486 |     DEPRECATED(LLAMA_API struct llama_model * llama_load_model_from_file(
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4119:21: warning: 'llama_new_context_with_model' is deprecated: use llama_init_from_model instead [-Wdeprecated-declarations]
+C/C++:  4119 |         ctx_llama = llama_new_context_with_model(model, ctx_params);
+C/C++:       |                     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:523:5: note: 'llama_new_context_with_model' has been explicitly marked deprecated here
+C/C++:   523 |     DEPRECATED(LLAMA_API struct llama_context * llama_new_context_with_model(
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4141:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4141 |             llama_free_model(model);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4154:41: warning: 'llama_new_context_with_model' is deprecated: use llama_init_from_model instead [-Wdeprecated-declarations]
+C/C++:  4154 |         llama_context * ctx_tts_llama = llama_new_context_with_model(tts_model, tts_ctx_params);
+C/C++:       |                                         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:523:5: note: 'llama_new_context_with_model' has been explicitly marked deprecated here
+C/C++:   523 |     DEPRECATED(LLAMA_API struct llama_context * llama_new_context_with_model(
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4157:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4157 |             llama_free_model(tts_model);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4160:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4160 |             llama_free_model(model);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4190:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4190 |             llama_free_model(tts_model);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4193:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4193 |             llama_free_model(model);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4218:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4218 |             llama_free_model(ctx_omni->model_tts);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4222:9: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4222 |         llama_free_model(model);
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4234:13: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4234 |             llama_free_model(ctx_omni->model_tts);
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4238:9: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4238 |         llama_free_model(model);
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4770:9: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4770 |         llama_free_model(ctx_omni->model_tts);
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4829:9: warning: 'llama_free_model' is deprecated: use llama_model_free instead [-Wdeprecated-declarations]
+C/C++:  4829 |         llama_free_model(ctx_omni->model);
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:514:5: note: 'llama_free_model' has been explicitly marked deprecated here
+C/C++:   514 |     DEPRECATED(LLAMA_API void llama_free_model(struct llama_model * model),
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4834:5: warning: deleting pointer to incomplete type 'class AudioInputManager' may cause undefined behavior [-Wdelete-incomplete]
+C/C++:  4834 |     delete ctx_omni->audio_input_manager;
+C/C++:       |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.h:338:11: note: forward declaration of 'AudioInputManager'
+C/C++:   338 |     class AudioInputManager * audio_input_manager = NULL;
+C/C++:       |           ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4859:6: warning: no previous prototype for function 'omni_set_language' [-Wmissing-prototypes]
+C/C++:  4859 | void omni_set_language(struct omni_context * ctx_omni, const std::string & lang) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4859:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  4859 | void omni_set_language(struct omni_context * ctx_omni, const std::string & lang) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4899:116: warning: unused parameter 'save_spk_emb' [-Wunused-parameter]
+C/C++:  4899 | static void process_audio(struct omni_context * ctx_omni, struct omni_embed * embeds, common_params * params, bool save_spk_emb=false) {
+C/C++:       |                                                                                                                    ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4905:6: warning: no previous prototype for function 'eval_prefix' [-Wmissing-prototypes]
+C/C++:  4905 | void eval_prefix(struct omni_context* ctx_omni, common_params* params){
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4905:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  4905 | void eval_prefix(struct omni_context* ctx_omni, common_params* params){
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4911:6: warning: no previous prototype for function 'eval_prefix_with_hidden' [-Wmissing-prototypes]
+C/C++:  4911 | void eval_prefix_with_hidden(struct omni_context* ctx_omni, common_params* params, float *& hidden_states){
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4911:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  4911 | void eval_prefix_with_hidden(struct omni_context* ctx_omni, common_params* params, float *& hidden_states){
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4936:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  4936 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4933:6: warning: no previous prototype for function 'llm_thread_func' [-Wmissing-prototypes]
+C/C++:  4933 | void llm_thread_func(omni_context* ctx_omni, common_params* params){
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:4933:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  4933 | void llm_thread_func(omni_context* ctx_omni, common_params* params){
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6551:36: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  6551 |             const int tts_n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_tts_llama));
+C/C++:       |                                    ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6540:17: warning: unused variable 'n_tokens_orig' [-Wunused-variable]
+C/C++:  6540 |             int n_tokens_orig = (int)(current_chunk_hidden_states.size() / current_chunk_n_embd);
+C/C++:       |                 ^~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6776:40: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  6776 |                 const int tts_n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_tts_llama));
+C/C++:       |                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6217:9: warning: variable 'tts_n_past' set but not used [-Wunused-but-set-variable]
+C/C++:  6217 |     int tts_n_past = 0;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6221:10: warning: variable 'tts_finish' set but not used [-Wunused-but-set-variable]
+C/C++:  6221 |     bool tts_finish = false;
+C/C++:       |          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6249:15: warning: unused variable 'audio_eos_token_id' [-Wunused-variable]
+C/C++:  6249 |     const int audio_eos_token_id = audio_bos_token_id + 6561;
+C/C++:       |               ^~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6250:15: warning: unused variable 'text_eos_token_id' [-Wunused-variable]
+C/C++:  6250 |     const int text_eos_token_id = 151692;
+C/C++:       |               ^~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6251:15: warning: unused variable 'num_audio_tokens' [-Wunused-variable]
+C/C++:  6251 |     const int num_audio_tokens = 6562;
+C/C++:       |               ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6254:9: warning: variable 'decode_call_idx' set but not used [-Wunused-but-set-variable]
+C/C++:  6254 |     int decode_call_idx = 0;
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6215:6: warning: no previous prototype for function 'tts_thread_func_duplex' [-Wmissing-prototypes]
+C/C++:  6215 | void tts_thread_func_duplex(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6215:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  6215 | void tts_thread_func_duplex(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:7309:36: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  7309 |             const int tts_n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_tts_llama));
+C/C++:       |                                    ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:7439:18: warning: unused variable 'is_final_chunk' [-Wunused-variable]
+C/C++:  7439 |             bool is_final_chunk = llm_finish;
+C/C++:       |                  ^~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:7440:18: warning: variable 'tts_success' set but not used [-Wunused-but-set-variable]
+C/C++:  7440 |             bool tts_success = false;
+C/C++:       |                  ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6841:9: warning: variable 'tts_n_past' set but not used [-Wunused-but-set-variable]
+C/C++:  6841 |     int tts_n_past = 0;  // TTS model's n_past counter
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6845:10: warning: variable 'tts_finish' set but not used [-Wunused-but-set-variable]
+C/C++:  6845 |     bool tts_finish = false;
+C/C++:       |          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6854:17: warning: unused variable 'info' [-Wunused-variable]
+C/C++:  6854 |     struct stat info;
+C/C++:       |                 ^~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6920:15: warning: unused variable 'audio_eos_token_id' [-Wunused-variable]
+C/C++:  6920 |     const int audio_eos_token_id = audio_bos_token_id + 6561;  // 158248
+C/C++:       |               ^~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6921:15: warning: unused variable 'text_eos_token_id' [-Wunused-variable]
+C/C++:  6921 |     const int text_eos_token_id = 151692;  // 用于文本结束检测
+C/C++:       |               ^~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6922:15: warning: unused variable 'spk_emb_token_id' [-Wunused-variable]
+C/C++:  6922 |     const int spk_emb_token_id = 21143;
+C/C++:       |               ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6923:15: warning: unused variable 'num_audio_tokens' [-Wunused-variable]
+C/C++:  6923 |     const int num_audio_tokens = 6562;
+C/C++:       |               ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6924:15: warning: unused variable 'max_audio_tokens' [-Wunused-variable]
+C/C++:  6924 |     const int max_audio_tokens = 1000;  // Maximum audio tokens to generate per text chunk
+C/C++:       |               ^~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6839:6: warning: no previous prototype for function 'tts_thread_func' [-Wmissing-prototypes]
+C/C++:  6839 | void tts_thread_func(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:6839:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  6839 | void tts_thread_func(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8635:15: warning: unused variable 'sample_rate' [-Wunused-variable]
+C/C++:  8635 |     const int sample_rate = 24000;  // Python Token2Wav 输出采样率
+C/C++:       |               ^~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8601:76: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:  8601 | void t2w_thread_func_python(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |                                                                            ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8601:6: warning: no previous prototype for function 't2w_thread_func_python' [-Wmissing-prototypes]
+C/C++:  8601 | void t2w_thread_func_python(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8601:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  8601 | void t2w_thread_func_python(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9160:20: warning: unused variable 'buffer_before_slide' [-Wunused-variable]
+C/C++:  9160 |             size_t buffer_before_slide = token_buffer.size();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9036:16: warning: unused variable 'buffer_before' [-Wunused-variable]
+C/C++:  9036 |         size_t buffer_before = token_buffer.size();
+C/C++:       |                ^~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9076:13: warning: variable 'process_count' set but not used [-Wunused-but-set-variable]
+C/C++:  9076 |         int process_count = 0;
+C/C++:       |             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8886:73: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:  8886 | void t2w_thread_func_cpp(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |                                                                         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8886:6: warning: no previous prototype for function 't2w_thread_func_cpp' [-Wmissing-prototypes]
+C/C++:  8886 | void t2w_thread_func_cpp(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:8886:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  8886 | void t2w_thread_func_cpp(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9250:6: warning: no previous prototype for function 't2w_thread_func' [-Wmissing-prototypes]
+C/C++:  9250 | void t2w_thread_func(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9250:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:  9250 | void t2w_thread_func(struct omni_context * ctx_omni, common_params *params) {
+C/C++:       | ^
+C/C++:       | static 
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9374:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9374 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9549:28: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9549 |     const int llm_hidden = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                            ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:9894:40: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9894 |     const int llm_n_embd             = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10120:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10120 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10354:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10354 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                             ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10586:37: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10586 |             const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                                     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10634:107: warning: comparison of integers of different signs: 'size_type' (aka 'unsigned long') and 'int' [-Wsign-compare]
+C/C++:  10634 |             ctx_omni->llm_thread_info->cv.wait(lock, [&] { return ctx_omni->llm_thread_info->queue.size() < ctx_omni->llm_thread_info->MAX_QUEUE_SIZE; });
+C/C++:        |                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10910:26: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10910 |         int llm_n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                          ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:11208:111: warning: comparison of integers of different signs: 'size_type' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+C/C++:  11208 |                 ctx_omni->tts_thread_info->cv.wait(lock, [&] { return ctx_omni->tts_thread_info->queue.size() < ctx_omni->tts_thread_info->MAX_QUEUE_SIZE; });
+C/C++:        |                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:11171:22: warning: unused variable 'llm_elapsed_ms' [-Wunused-variable]
+C/C++:  11171 |                 auto llm_elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(
+C/C++:        |                      ^~~~~~~~~~~~~~
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni.cpp:10876:9: warning: unused variable 'chunk_idx' [-Wunused-variable]
+C/C++:  10876 |     int chunk_idx = 0;
+C/C++:        |         ^~~~~~~~~
+C/C++: 88 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:22:
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: 7 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:23:
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: 7 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:5:
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:165:62: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       |                                                              ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:165:6: warning: no previous prototype for function 'test_case' [-Wmissing-prototypes]
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       |      ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/omni-cli.cpp:165:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       | ^
+C/C++:       | static 
+C/C++: 9 warnings generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/test/test-duplex.cpp:16:
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: 1 warning generated.
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/perf/perf-duplex.cpp:25:
+C/C++: In file included from /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: 1 warning generated.
+
+> Task :app:buildGgmlCpu_v86
+Copied v86 ggml-cpu -> /home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/app/src/main/jniLibs/arm64-v8a/libggml-cpu-v86.so (6184K)
+
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:stripDebugDebugSymbols
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///home/runner/work/minicpm-v-47-builder/minicpm-v-47-builder/src/MiniCPM-V-demo-Android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 6m 17s
+41 actionable tasks: 41 executed
